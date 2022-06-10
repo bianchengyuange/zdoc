@@ -1,4 +1,5 @@
 <div class="menu">
+  <!--
   <h6 class="menu__label">
     {{ if .IsHome }}
       {{ .Site.Title }}
@@ -6,6 +7,7 @@
       {{ $.Param "Title" }}
     {{ end }}
   </h6>
+  -->
   <ul>
     {{ $root := . }}
     {{ range (.Site.GetPage "section" .Type).Pages }}
