@@ -21,7 +21,7 @@ enableMenu = true
 enableNavbar = true
 enableFooter = true
 showPoweredBy = true
-#wideViewAsDefault = true #默认关闭目录(宽视图作为默认值,当您想要宽页面视图时将其设置为 true。如果为 true，TOC 或菜单侧边栏将默认折叠。)
+wideViewAsDefault = true #默认关闭目录(宽视图作为默认值,当您想要宽页面视图时将其设置为 true。如果为 true，TOC 或菜单侧边栏将默认折叠。)
 
 tocLevels = ["h2", "h3", "h4"]
 paginateWindow = 1
